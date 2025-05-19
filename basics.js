@@ -5,5 +5,5 @@ function createCounter() {
 }
 
 async function wait(ms) {
-    await new Promise((resolve) => setTimeout(resolve, ms))
+    return new Promise((resolve) => setTimeout(resolve, ms))
 }
